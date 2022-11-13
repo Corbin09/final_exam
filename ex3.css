@@ -1,0 +1,72 @@
+body{
+    margin: 100px;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left{
+    display: flex;
+    border: solid 1px aqua;
+    padding: 16px;
+    border-radius: 4px;
+    width: 327px;
+}
+
+.right{
+    display: flex;
+    margin-left: 365px;
+}
+
+input{
+    border-style: none;
+}
+
+.right_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.new_users{
+    background: #849FFF;
+    border-radius: 8px;
+}
+
+.box{
+    display: flex;
+}
+
+.person{
+    display: flex;
+    padding: 24px;
+    width: 330px;
+    background: #FBFCFF;
+    margin-right: 16px;
+    border-radius: 16px;
+}
+
+.left_person{
+    margin-right: 15px;
+}
+
+.right_person{
+    width: 184px;   
+}
+
+.act{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.active{
+    border-radius: 10px;
+    border: 1px solid #BFC8E6;
+    padding: 2px 8px;
+    color: #516FD5;
+    margin-right: 5px;
+}
