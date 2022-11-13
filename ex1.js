@@ -9,7 +9,7 @@ function sum(){
 
     for(i = a; i <= b; i++){
         if(i == 1){
-            continue
+            continue;
         }
 
         check = true;
